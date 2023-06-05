@@ -7,3 +7,22 @@ https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri
 
 Librerías empleadas:
 
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from keras.models import Sequential
+from keras.layers import Conv2D
+from keras.layers import MaxPooling2D
+from keras.layers import Flatten
+from keras.layers import Dense
+from keras.layers import Dropout
+from keras.preprocessing.image import ImageDataGenerator
+import tensorflow as tf
+import os
+from google.colab import drive
+import zipfile
+import cv2
+import glob
+from sklearn.utils import shuffle
+from keras.utils import plot_model
+     
